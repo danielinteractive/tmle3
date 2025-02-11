@@ -96,8 +96,8 @@ $$A = f_A(W, U_A)$$
 $$Y = f_Y(W, U_Y)$$
 
 In `tmle3`, this is done using the `define_node` function for each node.
-`define_node` allows a user to specify the node_name, which columns in the data
-comprise the node, and a list of parent nodes.
+`define_node` allows a user to specify the node's name, the names of the columns in the data
+comprise the node, and the parent node names.
 
 ``` {r define_npsem}
 npsem <- list(
